@@ -55,13 +55,13 @@ modDoDia:	addi $12, $0, 7
 		addi $16, $0, 4
 		addi $17, $0, 5
 		addi $18, $0, 6
-		beq $11, $0, sab
-		beq $11, $13, dom
-		beq $11, $14, seg
-		beq $11, $15, ter
-		beq $11, $16, qua
-		beq $11, $17, qui
-		beq $11, $18, sex
+		beq $11, $0, seg
+		beq $11, $13, ter
+		beq $11, $14, qua
+		beq $11, $15, qui
+		beq $11, $16, sex
+		beq $11, $17, sab
+		beq $11, $18, dom
 	
 		
 seg: 		addi $4, $0, 's'
